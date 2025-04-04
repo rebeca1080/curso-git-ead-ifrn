@@ -1,0 +1,13 @@
+mkdir curso-git-ifrn - para criar um repositorio.
+cd curso-git-ifrn - para entrar no repositório.
+
+git initi --initia-branch=main 
+git config --global user.name "Rebeca Silva"
+git config --global user.email "rebeca.fsilva10@gmail.com"
+
+touch arquivo.txt - aqruivo criado
+git add .
+git status
+git commit -m "Meu primeiro commit git"
+git remote add origin https://github.com/rebeca1080/curso-git-ead-ifrn.git
+git push main
